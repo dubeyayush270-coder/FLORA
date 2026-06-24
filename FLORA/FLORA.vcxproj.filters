@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FLORA">
+      <UniqueIdentifier>{19BB1C0D-85CF-44BE-4E51-E81DBA2441EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FLORA.h" />
+    <ClInclude Include="src\FLORA\Application.h">
+      <Filter>FLORA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Core.h">
+      <Filter>FLORA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\EntryPoint.h">
+      <Filter>FLORA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Log.h">
+      <Filter>FLORA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FLORA\Application.cpp">
+      <Filter>FLORA</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FLORA\Log.cpp">
+      <Filter>FLORA</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

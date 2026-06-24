@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+
+# Build output
+bin/
+bin-int/
+x64/
+
+# Compiled files
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# User-specific files
+*.user
+*.VC.dbFLORA-backup/ 
