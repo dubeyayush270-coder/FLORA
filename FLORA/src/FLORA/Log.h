@@ -4,6 +4,8 @@
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include <spdlog/fmt/ostr.h>
+
 
 namespace FLORA {
 	class FLORA_API Log

@@ -159,6 +159,10 @@
     <ClInclude Include="src\FLORA\Application.h" />
     <ClInclude Include="src\FLORA\Core.h" />
     <ClInclude Include="src\FLORA\EntryPoint.h" />
+    <ClInclude Include="src\FLORA\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\FLORA\Events\Event.h" />
+    <ClInclude Include="src\FLORA\Events\KeyEvent.h" />
+    <ClInclude Include="src\FLORA\Events\MouseEvent.h" />
     <ClInclude Include="src\FLORA\Log.h" />
   </ItemGroup>
   <ItemGroup>

@@ -4,6 +4,9 @@
     <Filter Include="FLORA">
       <UniqueIdentifier>{19BB1C0D-85CF-44BE-4E51-E81DBA2441EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FLORA\Events">
+      <UniqueIdentifier>{DDD0FFA9-C933-8F4E-72B9-C7045EFB5AD1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\FLORA.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\FLORA\EntryPoint.h">
       <Filter>FLORA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Events\ApplicationEvent.h">
+      <Filter>FLORA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Events\Event.h">
+      <Filter>FLORA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Events\KeyEvent.h">
+      <Filter>FLORA\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FLORA\Events\MouseEvent.h">
+      <Filter>FLORA\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\FLORA\Log.h">
       <Filter>FLORA</Filter>
